@@ -1,7 +1,7 @@
 import axios from "axios";
 import { TaskItem } from "../models/TaskItem";
 
-let apiUrl = "https://localhost:7295/api/todos"
+let apiUrl = "http://todo-list-api-lb-1456152441.us-east-1.elb.amazonaws.com/api/todos"
 
 export const getTasks = async () => {
     try {
